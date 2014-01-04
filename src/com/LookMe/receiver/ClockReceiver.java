@@ -1,8 +1,8 @@
-package com.clockdemo.receiver;
+package com.LookMe.receiver;
 
-import com.clockdemo.activity.VideoActivity;
-import com.clockdemo.service.ClockService;
-import com.clockdemo.utils.ClockIconManager;
+import com.LookMe.service.ClockService;
+import com.LookMe.utils.ClockIconManager;
+import com.LookMe.activity.VideoActivity;
 
 import android.app.Notification;
 import android.app.NotificationManager;

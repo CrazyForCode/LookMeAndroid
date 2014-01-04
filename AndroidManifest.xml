@@ -14,7 +14,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.clockdemo.activity.MainActivity"
+            android:name="com.LookMe.activity.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,11 +23,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.clockdemo.activity.SetClockActivity"
+            android:name="com.LookMe.activity.SetClockActivity"
             android:label="@string/title_activity_set_clock" >
         </activity>
 
-        <receiver android:name="com.clockdemo.receiver.ClockReceiver" >
+        <receiver android:name="com.LookMe.receiver.ClockReceiver" >
             <intent-filter>
                 <action android:name="android.intent.action.TEST" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -35,7 +35,7 @@
         </receiver>
 
         <activity
-            android:name="com.clockdemo.activity.VideoActivity"
+            android:name="com.LookMe.activity.VideoActivity"
             android:label="@string/title_activity_video" >
         </activity>
     </application>

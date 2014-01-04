@@ -1,9 +1,9 @@
-package com.clockdemo.alarm;
+package com.LookMe.alarm;
 
 import java.util.Calendar;
 
-import com.clockdemo.activity.MainActivity;
-import com.clockdemo.activity.SetClockActivity;
+import com.LookMe.activity.MainActivity;
+import com.LookMe.activity.SetClockActivity;
 
 import android.app.Activity;
 import android.app.AlarmManager;

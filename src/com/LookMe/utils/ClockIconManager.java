@@ -1,4 +1,4 @@
-package com.clockdemo.utils;
+package com.LookMe.utils;
 
 import android.content.Context;
 import android.content.Intent;

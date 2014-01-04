@@ -1,8 +1,7 @@
-package com.clockdemo.activity;
+package com.LookMe.activity;
 
 import com.example.clockdemo.R;
-import com.special.ResideMenu.menu.ResideMenu;
-import com.special.ResideMenu.menu.ResideMenuItem;
+
 
 import android.os.Bundle;
 import android.app.Activity;
@@ -27,19 +26,11 @@ public class MainActivity extends Activity {
 	private SharedPreferences pre = null;
 	private Cursor preCursor = null;
 	
-	private ResideMenu menu = null;
+	
 	private String[] titles = {"home","1","2","3"};
 
 	// 初始化视图
 	private void initView() {
-		menu = new ResideMenu(this);
-		menu.setBackground(R.drawable.menu_background);
-		menu.attachToActivity(this);
-		
-		for (int i = 0 ; i < titles.length ; i++){
-			ResideMenuItem item = new ResideMenuItem(this,titles[i]);
-			menu.addMenuItem(item);
-		}
 		setContentView(R.layout.activity_main);
 		addClock = (Button) this.findViewById(R.id.add_clock_btn);
 		clockListView = (ListView) this.findViewById(R.id.clock_listview);
@@ -74,9 +65,6 @@ public class MainActivity extends Activity {
 		return true;
 	}
 	
-	@Override
-    public boolean dispatchTouchEvent(MotionEvent ev) {
-        return menu.onInterceptTouchEvent(ev) || super.dispatchTouchEvent(ev);
-    }
+	
 
 }

@@ -1,4 +1,4 @@
-package com.clockdemo.ui;
+package com.LookMe.ui;
 
 import java.text.DateFormatSymbols;
 import java.util.Calendar;

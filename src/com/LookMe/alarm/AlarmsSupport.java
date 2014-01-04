@@ -1,4 +1,4 @@
-package com.clockdemo.alarm;
+package com.LookMe.alarm;
 /**
  * 给闹钟设置提供格式支持
  * */

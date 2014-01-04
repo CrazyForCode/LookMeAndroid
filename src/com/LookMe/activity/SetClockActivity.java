@@ -1,13 +1,13 @@
-package com.clockdemo.activity;
+package com.LookMe.activity;
 
 import java.util.Calendar;
 import java.util.prefs.PreferenceChangeEvent;
 import java.util.prefs.PreferenceChangeListener;
 
-import com.clockdemo.alarm.AlarmManagers;
-import com.clockdemo.ui.RepeatPreference;
-import com.clockdemo.ui.ShowTimeAlertLog;
-import com.clockdemo.utils.ClockIconManager;
+import com.LookMe.alarm.AlarmManagers;
+import com.LookMe.ui.RepeatPreference;
+import com.LookMe.ui.ShowTimeAlertLog;
+import com.LookMe.utils.ClockIconManager;
 import com.example.clockdemo.R;
 import com.example.clockdemo.R.layout;
 import com.example.clockdemo.R.menu;

@@ -1,4 +1,4 @@
-package com.clockdemo.model;
+package com.LookMe.model;
 
 public class Alarm {
 
