@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+ <CheckBoxPreference
+     android:key="enable"
+     android:title="@string/enable_alarm"
+     android:persistent="false"
+     />
+ <Preference
+     android:key="time"
+     android:title="@string/time"
+     android:persistent="false"/>
+ <com.clockdemo.ui.RepeatPreference
+     android:key="repeat"
+     android:persistent="false"
+     android:title="@string/repeat"/>
+ <CheckBoxPreference 
+     android:key="vibrate"
+     android:persistent="true"
+     android:title="@string/vibrate"/>   
+ <EditTextPreference 
+     android:key="label"
+     android:title="@string/label"/>
+</PreferenceScreen>
